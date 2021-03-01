@@ -1,0 +1,25 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass global/master.scss dist.css",
+    "watch": "node-sass global/master.scss --watch dist.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Byron-Farrell/design-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Byron-Farrell/design-system/issues"
+  },
+  "homepage": "https://github.com/Byron-Farrell/design-system#readme",
+  "dependencies": {
+    "node": "^15.8.0",
+    "node-sass": "^5.0.0"
+  }
+}

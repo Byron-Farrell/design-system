@@ -1,0 +1,35 @@
+:root {
+  // Fonts
+  --font-primary: sans-serif;
+  --font-secondary: serif;
+
+  // default values
+  --text-base-size: 1em;
+  --text-scale-ratio: 1.2;
+
+  // Base font size and scaling values depending on the width of the screen
+  --text-base-size-sm: 0.9em;
+  --text-scale-ratio-sm: 1.2;
+
+  --text-base-size-md: 1em;
+  --text-scale-ratio-md: 1.2;
+
+  --text-base-size-lg: 1.1em;
+  --text-scale-ratio-lg: 1.2;
+
+  --text-base-size-xl: 1.2em;
+  --text-scale-ratio-xl: 1.2;
+
+  // Transition duration scales the font size up or down over x seconds
+  // This makes the transition between screen widths look smoother
+  --text-transition-duration: 0.5s;
+
+  // Typography scaling variables
+  --text-xs: calc(var(--text-base-size) / (var(--text-scale-ratio) * var(--text-scale-ratio)));
+  --text-sm: calc(var(--text-base-size) / var(--text-scale-ratio));
+  --text-md: calc(var(--text-base-size) * var(--text-scale-ratio));
+  --text-lg: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+}

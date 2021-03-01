@@ -1,0 +1,66 @@
+// Breakpoints
+
+@include breakpoint-sm {
+  :root {
+    --text-base-size: var(--text-base-size-sm);
+    --text-scale-ratio: var(--text-scale-ratio-sm);
+  }
+}
+
+@include breakpoint-md {
+  :root {
+    --text-base-size: var(--text-base-size-md);
+    --text-scale-ratio: var(--text-scale-ratio-md);
+  }
+}
+
+@include breakpoint-lg {
+  :root {
+    --text-base-size: var(--text-base-size-lg);
+    --text-scale-ratio: var(--text-scale-ratio-lg);
+  }
+}
+
+@include breakpoint-xl {
+  :root {
+    --text-base-size: var(--text-base-size-xl);
+    --text-scale-ratio: var(--text-scale-ratio-xl);
+  }
+}
+
+// Styles
+
+.text-xxxl {
+  font-size: var(--text-xxxl);
+  @include font-size-transition;
+}
+
+.text-xxl {
+  font-size: var(--text-xxl);
+  @include font-size-transition;
+}
+
+.text-xl, h1 {
+  font-size: var(--text-xl);
+  @include font-size-transition;
+}
+
+.text-lg, h2 {
+  font-size: var(--text-lg);
+  @include font-size-transition;
+}
+
+.text-md, h3 {
+  font-size: var(--text-md);
+  @include font-size-transition;
+}
+
+.text-sm, p, a, li, ol, h4, div {
+  font-size: var(--text-sm);
+  @include font-size-transition;
+}
+
+.text-xs, small {
+  font-size: var(--text-xs);
+  @include font-size-transition;
+}

@@ -1,0 +1,12 @@
+// Small devices like phones and small tablets in portrait view
+// Note: This is for the "max" screen size whereas the rest of the variables are for the "min" width of the screen
+$screen-sm-max: 768px;
+
+// Medium devices like tablets in landscape view or small laptops
+$screen-md-min: 768px;
+
+// Large devices like desktops and large laptops
+$screen-lg-min: 992px;
+
+// Extra large devices like large monitors or TV screens
+$screen-xl-min: 1200px;
